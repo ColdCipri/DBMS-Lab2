@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,8 +39,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +60,22 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Services:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(544, 188);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(139, 22);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Service_TicketID";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(710, 185);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(355, 29);
+            this.textBox4.TabIndex = 7;
             // 
             // label3
             // 
@@ -128,22 +144,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(1194, 279);
             this.dataGridView1.TabIndex = 1;
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(710, 185);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(355, 29);
-            this.textBox4.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(544, 188);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 22);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Service_TicketID";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
@@ -156,7 +156,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DBMS Lab2 - Master-Detail Windows Form";
+            this.Text = "DBMS Lab2 - Master-Detail Windows Form for Service-Mechanic";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
