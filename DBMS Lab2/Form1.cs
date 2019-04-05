@@ -98,5 +98,13 @@ namespace DBMS_Lab2
         {
             SqlConn.CloseConn();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainForm childForm = new MainForm();
+            this.Hide();
+            childForm.Closed += (s, args) => this.Close();
+            childForm.ShowDialog();
+        }
     }
 }
